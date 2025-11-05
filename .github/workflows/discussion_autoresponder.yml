@@ -28,6 +28,7 @@ jobs:
               discussion_number: discussion.number,
               body: message,
               headers: {
+                'Accept': 'application/vnd.github.echo-preview+json',
                 'X-GitHub-Api-Version': '2022-11-28',
               },
             });
